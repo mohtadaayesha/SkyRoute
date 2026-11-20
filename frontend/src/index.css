@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+
+@import "tailwindcss";
+
+/* Airline Ticketing System - Global Theme */
+
+@theme {
+  --color-cool-blue: #D8EFFD;
+  --color-plum-noir: #341F28;
+  --color-plum-hover: #49303B;
+  --color-surface: #FFFFFF;
+  --color-muted: #705E65;
+  --color-soft-border: #B8D7E8;
+}
+
+/* Global styles */
+
+@layer base {
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+
+  body {
+    background-color: var(--color-cool-blue);
+    color: var(--color-plum-noir);
+    font-family: Arial, sans-serif;
+  }
+}
